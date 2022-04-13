@@ -1,5 +1,5 @@
 import React from "react";
-import { Col, Row } from "react-bootstrap";
+import { Col, Row, Button } from "react-bootstrap";
 import posts from "../../../data/posts.json"; //change with connection to server
 import BlogItem from "../blog-item/BlogItem";
 
@@ -14,6 +14,7 @@ const BlogList = (props) => {
           }}
         >
           <BlogItem key={post.title} {...post} />
+          <Button></Button>
         </Col>
       ))}
     </Row>
