@@ -14,7 +14,7 @@ const BlogList = (props) => {
           }}
         >
           <BlogItem key={post.title} {...post} />
-          <Button></Button>
+          <Button>Download PDF</Button>
         </Col>
       ))}
     </Row>
